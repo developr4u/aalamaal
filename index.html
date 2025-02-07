@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Sandals - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Elegant Sandals</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Step into Elegance</h2>
+    <p>Discover the latest collection of ladies' sandals.</p>
+  </section>
+
+  <section class="products">
+    <h2>Our Collection</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/sandal1.jpg" alt="Sandal 1">
+        <h3>Classic Heeled Sandals</h3>
+        <p>$49.99</p>
+        <button onclick="addToCart('Classic Heeled Sandals', 49.99)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/sandal2.jpg" alt="Sandal 2">
+        <h3>Flat Gladiator Sandals</h3>
+        <p>$39.99</p>
+        <button onclick="addToCart('Flat Gladiator Sandals', 39.99)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/sandal3.jpg" alt="Sandal 3">
+        <h3>Summer Slide Sandals</h3>
+        <p>$29.99</p>
+        <button onclick="addToCart('Summer Slide Sandals', 29.99)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elegant Sandals. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
