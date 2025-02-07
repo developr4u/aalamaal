@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ladies Sandals - Elegant Footwear</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Elegant Sandals</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <span>🛒</span>
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Step into Elegance</h2>
+      <p>Discover the latest collection of ladies' sandals.</p>
+      <a href="#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="shop" class="products">
+    <h2>Our Collection</h2>
+    <div class="product-grid">
+      <!-- Product Cards -->
+      <div class="product-card">
+        <img src="sandal1.jpg" alt="Sandal 1">
+        <h3>Classic Heeled Sandals</h3>
+        <p>$49.99</p>
+        <button class="add-to-cart" onclick="addToCart('Classic Heeled Sandals', 49.99)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="sandal2.jpg" alt="Sandal 2">
+        <h3>Flat Gladiator Sandals</h3>
+        <p>$39.99</p>
+        <button class="add-to-cart" onclick="addToCart('Flat Gladiator Sandals', 39.99)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="sandal3.jpg" alt="Sandal 3">
+        <h3>Summer Slide Sandals</h3>
+        <p>$29.99</p>
+        <button class="add-to-cart" onclick="addToCart('Summer Slide Sandals', 29.99)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 Elegant Sandals. All rights reserved.</p>
+    <p>Contact us: info@elegantsandals.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
