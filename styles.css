@@ -30,34 +30,14 @@ nav ul li a {
   text-decoration: none;
 }
 
-.cart {
-  cursor: pointer;
-}
-
 .hero {
-  background: url('hero.jpg') no-repeat center center/cover;
+  background: url('images/hero.jpg') no-repeat center center/cover;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-}
-
-.hero-content h2 {
-  font-size: 3rem;
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-}
-
-.btn {
-  padding: 10px 20px;
-  background-color: #ff6f61;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
 }
 
 .products {
@@ -93,12 +73,33 @@ nav ul li a {
   color: #333;
 }
 
-.add-to-cart {
+button {
   padding: 10px 20px;
   background-color: #333;
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.cart, .checkout, .admin {
+  padding: 20px;
+  text-align: center;
+}
+
+#cart-items, #orders {
+  margin: 20px 0;
+}
+
+.cart-item, .order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-item p, .order-item p {
+  margin: 0;
 }
 
 footer {
